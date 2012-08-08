@@ -1,0 +1,144 @@
+p, td, div {
+	color:#000000;
+	font-family:verdana, tahoma, arial, sans-serif;
+	font-size:10px;
+	margin:0px;
+	padding:0px 0px 1em 0px;
+	text-align:left;
+	}
+	
+
+a:link, a:visited, ul li a:link, ul li a:visited {
+	text-decoration:none;
+	color:#666666;
+	font-weight:bold;
+	font-family:verdana, tahoma, arial, sans-serif;
+	}
+
+a:hover, ul li a:hover {
+	text-decoration:underline;
+	color:#333333;
+	font-weight:bold;
+	font-family:verdana, tahoma, arial, sans-serif;
+	}
+
+h1 {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	}
+	
+h2 {
+	color:#000000;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size:16px;
+	margin-top:0px;
+	padding-top: 15px;
+	text-align:center;
+	}
+	
+h3 {
+	color:#000000;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size:14px;
+	margin-top:0px;
+	padding-top: 15px;
+	}
+
+
+body {
+	background-color:#000;
+	margin:10px 0px;
+	padding:0px;
+	text-align:center;
+	}
+	
+#header {
+	margin:0px auto 0px auto;
+	padding:0px;
+	width:706px;
+	height:170px;
+	}
+	
+#navbar {
+	background-image: url(images/template_r3_c1.jpg);
+	background-repeat: repeat-x;
+	width:706px;
+	height:40px;
+	margin:0px auto 0px auto;
+	text-align:center;
+	padding:9px 0px 0px 0px;
+	}
+	
+ul.menu {
+	padding-left: 0;
+	margin:0px;
+	}
+	
+ul li.menu {
+	display: inline;
+	list-style-type: none;
+	margin:0px;
+	}
+	
+ul li a.menu:link, ul li a.menu:visited {
+	padding: 5px 16px;
+	background-color: #FFF;
+	}
+	
+ul li a.menu:hover {
+	padding: 5px 16px;
+	background-color: #CCC;
+	}
+	
+#main {
+	width:706px;
+	background-image:url(images/template_r5_c1.jpg);
+	background-repeat:repeat-y;
+	text-align:left;
+	margin:-15px auto 0px auto;
+	padding:0px;
+	}
+
+#left_col {
+	width:320px;
+	float:left;
+	margin:0px 15px 0px 15px;
+	background-color:transparent;
+	}
+
+#right_col {
+	width: 320px;
+	background-color:transparent;
+	margin: 0px;
+	float:left;
+	}
+
+div.feedburnerFeedBlock ul {
+        margin-left : 0;
+        padding:0;
+        list-style-type: none
+        }
+	
+#no_col {
+	width:680px;
+	margin:0px 13px;
+	padding-top:10px;
+	}
+	
+#clear {
+	clear:both;
+	}
+
+#footer {
+	width:706px;
+	height:94px;
+	background-image:url(images/template_r7_c1.jpg);
+	background-repeat:no-repeat;
+	margin:0px auto;
+	padding:20px 0px 0px 0px;
+	}
+	
+#footer p {
+	text-align:center;
+	}

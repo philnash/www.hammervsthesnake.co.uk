@@ -1,0 +1,363 @@
+body {
+	font:62.5% verdana, tahoma, arial, sans-serif;
+	text-align:center;
+	background:#333 url(images/background.jpg) repeat-y top center;
+	}
+
+#wrapper {
+	width:770px;
+	margin:0 auto;
+	text-align:left;
+	background-color:#fff;
+	position:relative;
+	}
+
+#header {
+	width:770px;
+	overflow:hidden;
+	height:100px;
+	}
+
+#header h1 {
+	height:100px;
+	padding:120px 0 0 0;
+	background:#fff url(images/hammervsthesnake.jpg) no-repeat top left;
+	overflow:hidden;
+	}
+
+#callouts {
+	width:750px;
+	margin:30px 10px;
+	height:200px;
+	}
+
+#callouts li {
+	float:left;
+	}
+
+#navbar {
+	width:230px;
+	clear:left;
+	float:right;
+	padding:0 20px 0 10px;
+	}
+
+#navbar ul {
+	border-top:1px dotted #000;
+	}
+
+#navbar a {
+	display:block;
+	padding:0.9em 10px;
+	border-bottom:1px dotted #000;
+	text-decoration:none;
+	font-size:1.4em;
+	color:#000;
+	margin:0;
+	}
+
+#navbar a:link, #navbar a:visited { }
+
+#navbar .current_page_item a { 
+	background:#fff url(images/icons/arrow.gif) no-repeat center left; 
+	padding-left:20px;
+	}
+
+#navbar a:hover {
+	background-color:#333;
+	color:#fff;
+	}
+
+#navbar .current_page_item a:hover {
+	background:#333 url(images/icons/arrow2.gif) no-repeat center left;
+	}
+
+#main {
+	margin:0 0 0 20px;
+	width:470px;
+	float:left;
+	}
+
+#main p, #secondary p, #main ul, #secondary ul, #main ol, #secondary ol, #main dl {
+	font-size:1.2em;
+	line-height:1.8em;
+	margin:0 0 1.2em 20px;
+	}
+
+#secondary p { margin-left:0; }
+
+#main ul { padding-left:20px; margin-bottom:1.8em; }
+
+#main ul li { list-style-type:circle; }
+
+#main ul.gallery li { list-style-type:none; }
+
+#secondary ul { margin-left:0; }
+
+#secondary ul ul { margin-left:10px; }
+
+ul ul, ul ol, ol ul, ol ol, #main ol p { font-size:1em; }
+
+#main h2, #main h3 {
+	font:italic 2.4em/1.8em Georgia, Times, "Times New Roman", serif;
+	margin-bottom:0.6em;
+	}
+
+#main h3 { font-size:1.8em; }
+
+#secondary h2, #secondary h3 {
+	font:italic 1.5em/1.5em Georgia, Times, "Times New Roman", serif;
+	margin-bottom:0.6em;
+	}
+
+#news {
+	height:32px;
+	text-indent:-1000px;
+	background:#fff url(images/news.gif) no-repeat top left;
+	overflow:hidden;
+	}
+
+#main a, #footer a, #secondary a {
+	text-decoration:none;
+	color:#000;
+	}
+
+#main a:link, #footer a:link, #secondary a:link {
+	border-bottom:1px dotted #666;
+	}
+
+#main div:hover a:link, #footer div:hover a:link,  #secondary div:hover a:link {
+	border-bottom:1px solid #333;
+	}
+
+#main a:visited, #footer a:visited, #secondary a:visited {
+	border-bottom:1px dotted #666;
+	}
+
+#main a:hover, #footer a:hover {
+	border:none;
+	background-color:#333;
+	color:#fff;
+	}
+	
+#secondary a:hover {
+	border-bottom:1px solid #000;
+	}
+
+#main h2 a, #main h3 a, #secondary h2 a, #secondary h3 a {
+	text-decoration:none;
+	color:#000;
+	}
+
+#main h2 a:link, #main h3 a:link, #secondary h2 a:link, #secondary h3 a:link { border:none; }
+#main div:hover h2 a:link, #main div:hover h3 a:link, #secondary div:hover h2 a:link, #secondary div:hover h3 a:link { border:none; }
+#main h2 a:visited, #main h3 a:visited, #secondary h2 a:visited, #secondary h3 a:visited { border:none; }
+#wrapper #main h2 a:hover, 
+#wrapper #main h3 a:hover,
+#wrapper #main h2 a:active,
+#wrapper #main h3 a:active,
+#wrapper #secondary h2 a:hover, 
+#wrapper #secondary h3 a:hover,
+#wrapper #secondary h2 a:active,
+#wrapper #secondary h3 a:active { border-bottom:1px solid #000; background-color:#fff; color:#000; }
+
+#secondary {
+	width:230px;
+	margin:20px 10px;
+	float:right;
+	}
+
+#footer {
+	text-align:center;
+	padding:20px 0 70px 0;
+	background:#fff url(images/footer.jpg) no-repeat bottom left;
+	font-size:1em;
+	line-height:1.5em;
+	clear:both;
+	}
+#footer p {
+	margin-bottom:1.4em;
+	}
+
+
+#main .date, #main .categories, #main .number_comments, #main .edit {
+	display:block;
+	padding-left:20px;
+	color:#666;
+	font-size:0.9em;
+	}
+
+#main .date { 
+	margin-bottom:0;
+	}
+
+.date {	background:#fff url(images/icons/calendar.gif) no-repeat center left; }
+
+.categories { background:#fff url(images/icons/folder.gif) no-repeat center left; }
+
+.number_comments { background:#fff url(images/icons/comments.gif) no-repeat center left; }
+
+#secondary .subscribe {
+	padding-left:20px;
+	background:#fff url(images/icons/feed.gif) no-repeat center left;
+	}
+
+#secondary .external {
+	padding-left:20px;
+	background:#fff url(images/icons/lightning.png) no-repeat center left;
+	}
+	
+#secondary ul ul li {
+	padding-left:20px;
+	background:#fff url(images/icons/bullet_black.png) no-repeat center left;
+	}
+
+.previous, .next { width:45%; }
+
+.previous { float:left; }
+.next { float:right; text-align:right; }
+
+blockquote {
+	margin-left:20px;
+	}
+
+strong { font-weight:bold; }
+em { font-style:italic; }
+ins { font-style:italic; }
+del { text-decoration:line-through; }
+
+.album, .photo {
+	float:left;
+	margin:0 30px 5px 0;
+	padding:5px;
+	background-color:#f8f8f8;
+	border:1px solid #e8e8e8;
+	}
+	
+#main .gallery { margin:0; }
+
+.album-list li {
+	list-style-type:decimal;
+	}
+
+/* Comments */
+
+#commentform textarea {
+	margin-left:20px;
+	width:460px;
+	}
+
+#submit {
+	margin:10px 0 0 20px;
+	border:1px solid #e8e8e8;
+	background-color:#f8f8f8;
+	padding:2px 5px;
+	color:#333;
+	}
+
+#submit:hover {
+	color:#000;
+	}
+
+#main ol.commentlist {
+	margin-left:20px;
+	}
+
+#main .commentlist p {
+	margin-left:20px;
+	}
+
+.comment {
+	margin-left:10px;
+	}
+
+#main .commentmetadata {
+	text-align:right;
+	color:#666;
+	font-size:0.9em;
+	margin-right:20px;
+	}
+
+#main .commentmetadata a {
+	color:#666;
+	font-size:0.9em;
+	}
+
+#main .commentmetadata a:hover {
+	color:#fff;
+	}
+
+#main .commentlist li {
+	padding-top:10px;
+	background:#fff url(images/comment-bg.jpg) repeat-x top left;
+	}
+
+/* End of comments */
+
+/* Lytebox */
+
+#lbOverlay { position: absolute; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; }
+	#lbOverlay.grey { background-color: #000000; }
+
+#lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
+#lbMain a img { border: none; }
+
+#lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
+	#lbOuterContainer.grey { border: 3px solid #888888; }
+
+#lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: auto; margin: 0 auto; }
+	#lbDetailsContainer.grey { border: 3px solid #888888; border-top: none; }
+
+#lbImageContainer, #lbIframeContainer { padding: 10px; }
+#lbLoading {
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(images/loading.gif) center no-repeat;
+}
+
+#lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#lbImageContainer>#lbHoverNav { left: 0; }
+#lbHoverNav a { outline: none; }
+
+#lbPrev { width: 49%; height: 100%; background: transparent url(images/blank.gif) no-repeat; display: block; left: 0; float: left; }
+	#lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url(images/prev_grey.gif) left 15% no-repeat; }
+	
+#lbNext { width: 49%; height: 100%; background: transparent url(images/blank.gif) no-repeat; display: block; right: 0; float: right; }
+	#lbNext.grey:hover, #lbNext.grey:visited:hover { background: url(images/next_grey.gif) right 15% no-repeat; }
+
+#lbPrev2, #lbNext2 { text-decoration: none; font-weight: bold; }
+	#lbPrev2.grey, #lbNext2.grey, #lbSpacer.grey { color: #333333; }
+	
+#lbPrev2_Off, #lbNext2_Off { font-weight: bold; }
+	#lbPrev2_Off.grey, #lbNext2_Off.grey { color: #CCCCCC; }
+	
+#lbDetailsData { padding: 0 10px; }
+	#lbDetailsData.grey { color: #333333; }
+
+#lbDetails { width: 60%; float: left; text-align: left; }
+#lbCaption { display: block; font-weight: bold; }
+#lbNumberDisplay { float: left; display: block; padding-bottom: 1.0em; }
+#lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
+
+#lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbClose.grey { background: url(images/close_grey.png) no-repeat; }
+
+#lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPlay.grey { background: url(images/play_grey.png) no-repeat; }
+	
+#lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPause.grey { background: url(images/pause_grey.png) no-repeat; }
+
+/* End of Lytebox */
+
+/* Pictures */
+
+#main .gallery {
+	margin:0 0 1.8em 0;
+	width:470px;
+	float:left;
+	}
+
+#main .gallery .photo { margin:0 5px 5px 0; width:128px; }
+
+#main .gallery li { list-style-type:none; float:left; }
+
+.gallery .new-row { clear:left; }
